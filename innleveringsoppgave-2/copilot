@@ -1,52 +1,43 @@
 Navn = "Erling"
 
-print("=== Konflikthåndtering: Sivert og Silje ===")
-print("\nErling står overfor en konflikt mellom Sivert og Silje.")
-print("Han må ta en beslutning for å løse situasjonen.")
-
-# Første valg
+print("=== Konflikt 1: Sivert og Silje ===")
 print("\nHva skal Erling gjøre?")
-print("1: Gå til HR for å få en nøytral mekler.")
-print("2: Ta en individuell samtale med begge to.")
+print("1: Erling går til HR for å få en nøytral mekler.")
+print("2: Erling tar en individuell samtale med begge to.")
 
 valg = input("\nSkriv 1 eller 2: ")
 
 if valg == "1":
     print("\nDu valgte: Erling går til HR for å få en nøytral mekler.")
     print("\nMulige konsekvenser:")
-    print("- Positiv: HR bistår som en nøytral part. Silje og Sivert klarer å bli enige.")
-    print("- Negativ: De blir ikke enige, og HR kommer med et kompromiss som de må følge.")
+    print("(positiv) HR bistår som en nøytral part. Silje og Sivert klarer å bli enige.")
+    print("(negativ) De blir ikke enige, og HR kommer med et kompromiss som de må følge.")
 
     scenario = input("\nVil du se 'positiv' eller 'negativ' scenario? ").lower()
     if scenario == "positiv":
         print("\nScenario:")
         print("Silje og Sivert kom til enighet og har begynt å samarbeide tettere for å unngå videre konflikt.")
-        print("Historien ender godt!")
     elif scenario == "negativ":
         print("\nScenario:")
         print("Det er fortsatt dårlig stemning etter kompromisset. Silje føler at hun kom dårligere ut enn Sivert og motivasjonen hennes svekkes.")
-        print("Historien ender med utfordringer.")
     else:
         print("Ugyldig valg. Skriv 'positiv' eller 'negativ'.")
 
 elif valg == "2":
     print("\nDu valgte: Erling tar en individuell samtale med begge to.")
     print("\nMulige konsekvenser:")
-    print("- Positiv: Erling tar en prat med begge separat, de føler de blir hørt og at Erling forstår deres bekymringer.")
-    print("- Negativ: De føler de blir overkjørt og at Erling ikke forstår viktigheten av hva de mener er best for prosjektet.")
+    print("(positiv) Erling tar en prat med begge separat, de føler de blir hørt og at Erling forstår deres bekymringer. Han oppfordrer dem til å bli enige, ellers vil han ta en bestemmelse.")
+    print("(negativ) De føler de blir overkjørt og at Erling ikke forstår viktigheten av hva de mener er best for prosjektet.")
 
     scenario = input("\nVil du se 'positiv' eller 'negativ' scenario? ").lower()
     if scenario == "positiv":
         print("\nScenario:")
         print("Etter samtalen med Erling er begge partene innforstått med at de må bli enige ellers så kommer Erling til å ta en sjefsavgjørelse. De ønsker å finne en løsning sammen og klarer det.")
-        print("Historien ender godt!")
     elif scenario == "negativ":
         print("\nScenario:")
         print("Silje og Sivert føler at Erling ikke hørte etter og blir ikke enige. Deres tillit til Erlings ledelse svekkes, og konflikten blir ikke løst.")
-        print("Historien ender med utfordringer.")
     else:
         print("Ugyldig valg. Skriv 'positiv' eller 'negativ'.")
 
 else:
-    print("Ugyldig valg. Skriv 1 eller 2.")
-
+    print("Ugyldig valg. Skriv 1 eller 2.") 
