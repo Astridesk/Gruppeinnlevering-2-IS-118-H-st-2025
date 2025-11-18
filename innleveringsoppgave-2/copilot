@@ -1,0 +1,24 @@
+
+Navn = "Erling"
+
+print("Valg 1: Erling går til HR for å få en nøytral mekler.")
+print("Mulige konsekvenser:")
+print("- Positiv: HR bistår som en nøytral part. Silje og Sivert klarer å bli enige.")
+print("- Negativ: De blir ikke enige, og HR kommer med et kompromiss som de må følge.")
+
+
+print("\nScenario:")
+print("- Positiv: Silje og Sivert kom til enighet og har begynt å samarbeide tettere for å unngå videre konflikt.")
+print("- Negativ: Det er fortsatt dårlig stemning etter kompromisset. Silje føler at hun kom dårligere ut enn Sivert og motivasjonen hennes svekkes.")
+
+
+print("\nValg 2: Erling tar en individuell samtale med begge to.")
+print("Mulige konsekvenser:")
+print("- Positiv: Erling tar en prat med begge separat, de føler de blir hørt og at Erling forstår deres bekymringer. Han oppfordrer dem til å bli enige, ellers vil han ta en bestemmelse.")
+print("- Negativ: De føler de blir overkjørt og at Erling ikke forstår viktigheten av hva de mener er best for prosjektet.")
+
+
+print("\nScenario:")
+print("- Positiv: Etter samtalen med Erling er begge partene innforstått med at de må bli enige ellers så kommer Erling til å ta en sjefsavgjørelse. De ønsker å finne en løsning sammen og klarer det.")
+
+print("\nErling bestemmer seg for å gå til HR for å få en nøytral mekler.")
