@@ -46,14 +46,16 @@ print("Resultatet av konflikten mellom Sivert og Silje: " + konflikt1_resultat)
 print("Nå som konflikten mellom Sivert og Silje er løst, er det på tide at Erling løser konflikten mellom Hamdi og Jabir.")
 
 # Valgmuligheter mellom Hamdi og Jabir
-if konflikt1_resultat == "Du fikk godkjent, men klarer du å løse konflikten mellom Hamdi og Jabir på en bedre måte?":
+if konflikt1_resultat == "Kompromiss, motivasjonen til Silje svekkes og prototypen oppnår ikke ønsket resultat. Prototypen blir likevel godkjent.":
     print("Stemningen mellom teammedlemmene er fortsatt anspent, klarer Erling å lette på den?")
     valg2 = input("Hva gjør Erling? Skriv 1 for å ta saken opp med HR, 2 for å ta individuelle samtaler med begge parter, eller 3 for å la dem ordne det selv: ")
 
-elif konflikt1_resultat == "Gratulerer, du reddet prototypen! Nå kan du prøve å løse konflikten mellom Hamdi og Jabir på en like god måte!":
+elif konflikt1_resultat == "Konflikten mellom Sivert og Silje blir løst. Gratulerer, prototypen blir en suksess!":
+    print("Stemningen i teamet er god, og Erling har gode muligheter for å løse konflikten mellom Hamdi og Jabir.")
     valg2 = input("Hva gjør Erling? Skriv 1 for å ta saken opp med HR, 2 for å ta individuelle samtaler med begge parter, eller 3 for å la dem ordne det selv: ")
 
-elif konflikt1_resultat == "Selv om det gikk dårlig med arbeidet til Sivert og Silje, har Erling fortsatt mulighet til å rette opp i spenningene mellom Hamdi og Jabir.":
+elif konflikt1_resultat == "Ingen handling, konflikten vedvarer og prototypen blir ikke godkjent.":
+    print("Stemningen i teamet er dårlig etter konflikten mellom Sivert og Silje. Nå må Erling håndtere konflikten mellom Hamdi og Jabir, men stemningen er ikke bra.")
     valg2 = input("Hva gjør Erling? Skriv 1 for å ta en tidlig dialog med Hamdi og Jabir, 2 for å la dem ordne opp på egenhånd eller 3 for å fokusere på teambygging: ")
 
 # Håndtering av Konflikt 2
@@ -72,13 +74,5 @@ elif valg2 == "3":
     print("Teambyggingen fungerte til teamets fordel, og konflikten mellom Hamdi og Jabir ble løst.")
     konflikt2_resultat = "Teamet blir venner utenfor arbeidsplassen, og prototypen blir godkjent. Godt jobbet!"
 
+# Vis resultatet av konflikten mellom Hamdi og Jabir
 print("Resultatet av konflikten mellom Hamdi og Jabir: " + konflikt2_resultat)
-
-
-
-
-
-
-
-
-
