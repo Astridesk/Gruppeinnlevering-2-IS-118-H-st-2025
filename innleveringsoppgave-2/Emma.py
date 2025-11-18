@@ -23,21 +23,21 @@ valg1 = input("Hva gjør Erling? Skriv 1 for å gå til HR, 2 for å ta individu
 
 #Håndtering av Konflikt 1
 if valg1 == "1":
-  print("Erling går til HR for å finne en løsning til konflikten. HR forelsår et kompromiss mellom de to partenes ønsker, men Silje er ikke tilfreds med valget.")
-  print("Dette resulterer i at motivasjonen hennes vekkes og hun presterer dårlig i arbeidet.")
-  konflikt1_resultat = "Kompromiss, motivasjonen til Silje svekkes og prototypen oppnår ikke ønsket resultat. Prototypen blir likevel godkjent."
-  print ("Du fikk godkjent, men klarer du å løse konflikten mellom Hamdi og Jabir på en bedre måte?")
+print("Erling går til HR for å finne en løsning til konflikten. HR forelsår et kompromiss mellom de to partenes ønsker, men Silje er ikke tilfreds med valget.")
+print("Dette resulterer i at motivasjonen hennes vekkes og hun presterer dårlig i arbeidet.")
+konflikt1_resultat = "Kompromiss, motivasjonen til Silje svekkes og prototypen oppnår ikke ønsket resultat. Prototypen blir likevel godkjent."
+print ("Du fikk godkjent, men klarer du å løse konflikten mellom Hamdi og Jabir på en bedre måte?")
   
 elif valg1 == "2":
-  print("Erling tar individuelle samtaler med begge parter og får mer innsikt i Sivert og Silje's synspunkter. Erling kommer med råd, og Sivert og Silje blir enige etter Erlings oppfordring.")
-  konflikt1_resultat = "Konflikten mellom Sivert og Silje blir løst. Gratulerer, prototypen blir en suksess!"
-  print("Gratulerer, du reddet prototypen! Nå kan du prøve å løse konflikten mellom Hamdi og Jabir på en like god måte!")
+print("Erling tar individuelle samtaler med begge parter og får mer innsikt i Sivert og Silje's synspunkter. Erling kommer med råd, og Sivert og Silje blir enige etter Erlings oppfordring.")
+konflikt1_resultat = "Konflikten mellom Sivert og Silje blir løst. Gratulerer, prototypen blir en suksess!"
+print("Gratulerer, du reddet prototypen! Nå kan du prøve å løse konflikten mellom Hamdi og Jabir på en like god måte!")
 
 elif valg1 == "3":
-  print("Erling tenker at konflikten løser seg selv og velger derfor å ikke gjøre noe.")
-  print("Dette fører til økt frustrasjon blant teammedlemmene og prototypen blir dårlig.")
-  konflikt1_resultat = "Ingen handling, konflikten vedvarer og prototypen blir ikke godkjent."
-  print("Selv om det gikk dårlig med arbeidet til Sivert og Silje, har Erling fortsatt mulighet til å rette opp i spenningene mellom Hamdi og Jabir.")
+print("Erling tenker at konflikten løser seg selv og velger derfor å ikke gjøre noe.")
+print("Dette fører til økt frustrasjon blant teammedlemmene og prototypen blir dårlig.")
+konflikt1_resultat = "Ingen handling, konflikten vedvarer og prototypen blir ikke godkjent."
+print("Selv om det gikk dårlig med arbeidet til Sivert og Silje, har Erling fortsatt mulighet til å rette opp i spenningene mellom Hamdi og Jabir.")
 
 # Vis resultatet av konflikten mellom Sivert og Silje
 print("Resultatet av konflikten mellom Sivert og Silje: " + konflikt1_resultat)
