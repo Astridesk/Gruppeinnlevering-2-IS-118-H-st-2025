@@ -1,4 +1,4 @@
-# individuelle løsning for IS-118 oppgave 2
+# individuelle løsning for IS-118 oppgave 2 yousef
 
 print("Hei! Du spiller som Erling, prosjektleder for kommunens nye medborgerportal.")
 print("Teamet ditt er midt i storming-fasen, og du må ta tre valg som påvirker historien.\n")
@@ -71,5 +71,6 @@ elif konflikt1 != "ingen" and konflikt2 != "ingen" and motivasjon != "ingen":
 else:
     print("Teamet sliter fortsatt med konflikter og samarbeidet faller litt sammen.")
     print("Prosjektet blir forsinket og motivasjonen er lav.")
+
 
 print("\nTakk for at du spilte historien!")
