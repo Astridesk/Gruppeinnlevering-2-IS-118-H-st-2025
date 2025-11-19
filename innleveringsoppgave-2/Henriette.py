@@ -48,7 +48,7 @@ if Valg_1 == "1":
     print(f"{Prosjekt_leder} går til HR for å løse konflikten mellom {Medlem_1} og {Medlem_2}.")
 
 # Positivt utfall
-    if Arbeidsmiljø >= 6:
+    if Arbeidsmiljø >= 5:
         print ("\n Positiv konsekvens:")
         print(f"HR fungerer som nøytral part, og {Medlem_1} og {Medlem_2} klarer å bli enige.")
 
