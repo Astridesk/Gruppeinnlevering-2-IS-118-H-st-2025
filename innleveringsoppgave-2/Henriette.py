@@ -8,7 +8,7 @@ print("Lykke til, og gjør dine valg med omhu!")
 print("\n-----------------------------------\n")
 
 # 1: Bakgrunnshistorie om konflikt 1 mellom Silje og Sivert 
-print("På kontoret i Kristiansand har det blitt amper stemning mellom flere av medlemmene som jobber der.")
+print("På kontoret i Kristiansand har det blitt amper stemning mellom flere av medlemmene som jobber der, og de står nå midt i en storming fase.")
 Medlem_1 = "Silje"
 Medlem_2 = "Sivert"
 print(f"Konflikten mellom {Medlem_1} og {Medlem_2} har utviklet seg fra sakskonflikt til personkonflikt, og de klarer ikke bli enige om teknologivalg og design.")
