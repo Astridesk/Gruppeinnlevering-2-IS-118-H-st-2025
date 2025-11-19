@@ -232,7 +232,7 @@ print("\n-----------------------------------\n")
 
 print("\n--- SLUTTRESULTAT ---\n")
 
-print("Historien er nå ferdig, og her er slutresultatet basert på dine valg gjennom historien:\n")
+print("Historien er nå ferdig, og her er sluttresultatet basert på dine valg gjennom historien:\n")
 print ("Sluttresultat:")
 if Arbeidsmiljø >= 6:
     print(f"Til tross for utfordringene, har {Prosjekt_leder} klart å navigere gjennom konfliktene og bevare motivasjonen i teamet.")
