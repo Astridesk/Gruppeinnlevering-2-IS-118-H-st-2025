@@ -166,7 +166,7 @@ print("\n-----------------------------------\n")
 
 print("\n--- BEVARE MOTIVASJONEN I TEAMET ---\n")
 
-print("Etter å ha håndtert begge konfliktene, er det viktig for {Prosjekt_leder} å fokusere på å bevare motivasjonen i teamet.")
+print(f"Etter å ha håndtert begge konfliktene, er det viktig for {Prosjekt_leder} å fokusere på å bevare motivasjonen i teamet.")
 print("Han har to valg for å bevare teamet motivasjon:")
 Valg_3 = input(
     "6 = Fokusere på team-building\n"
@@ -218,7 +218,7 @@ elif Valg_3 == "7":
         print("Teamet klarer ikke å jobbe effektivt når kommunikasjonen er dårlig og stemningen er spent")
 
         print("\n Negativt resultat:")
-        motivasjons_resultat = "Frustrasjonen fortsetter å vokse. Teamet har lav motivasjon, dårlig kommunikasjon og lav tillit til {Prosjekt_leder}, noe som fører til at prosjektet stagnerer."
+        motivasjons_resultat = f"Frustrasjonen fortsetter å vokse. Teamet har lav motivasjon, dårlig kommunikasjon og lav tillit til {Prosjekt_leder}, noe som fører til at prosjektet stagnerer."
         Arbeidsmiljø -= 1
 else:
     print("Dette svaret er ugyldig. Vennligst prøv igjen.")
@@ -235,11 +235,11 @@ print("\n--- SLUTTRESULTAT ---\n")
 print("Historien er nå ferdig, og her er slutresultatet basert på dine valg gjennom historien:\n")
 print ("Sluttresultat:")
 if Arbeidsmiljø >= 6:
-    print("Til tross for utfordringene, har {Prosjekt_leder} klart å navigere gjennom konfliktene og bevare motivasjonen i teamet.")
+    print(f"Til tross for utfordringene, har {Prosjekt_leder} klart å navigere gjennom konfliktene og bevare motivasjonen i teamet.")
     print("Prosjektet fortsetter fremover med et styrket team og forbedret arbeidsmiljø.")
 else:
     print("Konfliktene og lav motivasjon har tatt en toll på teamet.")
-    print("Prosjektet står overfor betydelige utfordringer, og {Prosjekt_leder} må jobbe hardt for å gjenopprette tillit og samarbeid i teamet.") 
+    print(f"Prosjektet står overfor betydelige utfordringer, og {Prosjekt_leder} må jobbe hardt for å gjenopprette tillit og samarbeid i teamet.") 
 
 print(f"\nEndelig arbeidsmiljønivå: {Arbeidsmiljø}/10\n")
 
