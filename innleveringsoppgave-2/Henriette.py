@@ -8,7 +8,7 @@ print("Lykke til, og gjør dine valg med omhu!")
 print("\n-----------------------------------\n")
 
 # 1: Bakgrunnshistorie om konflikt 1 mellom Silje og Sivert 
-print("På kontoret i Kristiansand har det blitt amper stemning mellom flere av medlemmene som jobber der, og de står nå midt i en storming fase.")
+print("På kontoret i Kristiansand har det blitt amper stemning mellom flere av medlemmene som jobber der.")
 Medlem_1 = "Silje"
 Medlem_2 = "Sivert"
 print(f"Konflikten mellom {Medlem_1} og {Medlem_2} har utviklet seg fra sakskonflikt til personkonflikt, og de klarer ikke bli enige om teknologivalg og design.")
@@ -70,7 +70,7 @@ elif Valg_1 == "2":
     print(f"{Prosjekt_leder} holder individuelle samtaler med både {Medlem_1} og {Medlem_2}.")
 
 # Positivt utfall
-    if Arbeidsmiljø >= 6:
+    if Arbeidsmiljø >= 5:
         print("\n Positiv konsekvens:")
         print(f"De føler seg hørt, og {Prosjekt_leder} forstår deres bekymringer.")
 
@@ -114,7 +114,7 @@ if Valg_2 == "4":
     print(f"{Prosjekt_leder} tar tidlig dialog med både {Medlem_3} og {Medlem_4}.")
  
 # Positivt utfall
-    if Arbeidsmiljø >= 6:
+    if Arbeidsmiljø >= 5:
         print("\n Positiv konsekvens:")
         print("Kommunikasjonen mellom {Medlem_3} og {Medlem_4} forbedres.")
 
@@ -136,7 +136,7 @@ elif Valg_2 == "5":
     print(f"{Prosjekt_leder} lar {Medlem_3} og {Medlem_4} finne ut av konflikten på egenhånd.")
 
 # Positivt utfall
-    if Arbeidsmiljø >= 6:
+    if Arbeidsmiljø >= 5:
         print("\n Positiv konsekvens:")
         print("De klarer å finne en løsning begge to kan støtte.")
 
@@ -182,7 +182,7 @@ if Valg_3 == "6":
     print(f"{Prosjekt_leder} velger å fokusere på team-building for å styrke relasjonene i teamet.")
 
 #Positivt utfall
-    if Arbeidsmiljø >= 6:
+    if Arbeidsmiljø >= 5:
         print("\n Positiv konsekvens:")
         print("Medlemmene i teamet får positive opplevelser med hverandre og lærer å kommunisere bedre.")
 
@@ -204,7 +204,7 @@ elif Valg_3 == "7":
     print(f"{Prosjekt_leder} velger å pushe teamet mot fremgang for å møte prosjektets mål.")
 
 # Positivt utfall
-    if Arbeidsmiljø >= 6:
+    if Arbeidsmiljø >= 5:
         print("\n Positiv konsekvens:")
         print("Teamet føler seg motivert av fremgangen og fokuserer på å levere resultater.")
 
