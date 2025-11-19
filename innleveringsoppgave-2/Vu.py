@@ -1,7 +1,6 @@
 print("Velkommen til Erling og hans team!\n")
 
-# --- Konflikt 1 ---
-print("Konflikt 1:")
+
 print("1: Erling går til HR")
 print("2: Erling tar individuelle samtaler")
 print("3: Erling planlegger en teambuilding-aktivitet")
@@ -18,8 +17,6 @@ else:
     print("Ugyldig valg. Videreføres som nøytral hendelse.")
 
 
-# --- Konflikt 2 ---
-print("Konflikt 2:")
 print("1: Erling og HR var ikke enige om hvordan konflikten skulle håndteres.")
 print("2: Erling fikk høre forskjellige perspektiver fra teammedlemmene og tar nå et felles teammøte.")
 print("3: Erling ser at aktiviteten forbedret kommunikasjonen og bruker nå teambuilding jevnlig.")
@@ -38,8 +35,7 @@ else:
     print("Ugyldig valg. Videreføres som nøytral hendelse.")
 
 
-# --- Konflikt 3 ---
-print("Konflikt 3:")
+
 print("1: Erling prøver å få teamet til å jobbe mot et felles mål.")
 print("2: Erling presser teamet til å jobbe raskere.")
 print("3: Erling tar en pause fra prosjektet og lar teamet tenke på egen hånd.")
