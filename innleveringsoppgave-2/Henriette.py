@@ -230,4 +230,19 @@ print(f"\nNytt arbeidsmiljønivå: {Arbeidsmiljø}/10\n")
 
 print("\n-----------------------------------\n")
 
+print("\n--- SLUTTRESULTAT ---\n")
+
+print("Historien er nå ferdig, og her er slutresultatet basert på dine valg gjennom historien:\n")
+print ("Sluttresultat:")
+if Arbeidsmiljø >= 6:
+    print("Til tross for utfordringene, har {Prosjekt_leder} klart å navigere gjennom konfliktene og bevare motivasjonen i teamet.")
+    print("Prosjektet fortsetter fremover med et styrket team og forbedret arbeidsmiljø.")
+else:
+    print("Konfliktene og lav motivasjon har tatt en toll på teamet.")
+    print("Prosjektet står overfor betydelige utfordringer, og {Prosjekt_leder} må jobbe hardt for å gjenopprette tillit og samarbeid i teamet.") 
+
+print(f"\nEndelig arbeidsmiljønivå: {Arbeidsmiljø}/10\n")
+
+print("\n-----------------------------------\n")
+
 print("Takk for at du deltok i historien!")
